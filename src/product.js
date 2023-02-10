@@ -9,7 +9,7 @@ const product = ({newPr}) => {
         <Image style={styles.image} source={{uri: newPr.imgURL}} />
         <Text style={styles.title}>{newPr.title}</Text>
         <Text style={styles.price}>{newPr.price}</Text>
-        <Text style={styles.inStock}>{newPr.inStock == true ? '' : 'STOKTA YOK'}</Text>
+        <Text style={styles.inStock}>{newPr.inStock ? '' : 'STOKTA YOK'}</Text>
     </View>
    );
 };
