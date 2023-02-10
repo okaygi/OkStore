@@ -23,7 +23,6 @@ export default StyleSheet.create({
     },
     inStock: {
         color: 'red',
-        fontWeight: 'bold',
         textAlign: 'right',
     }
 })
